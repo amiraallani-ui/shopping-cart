@@ -1,0 +1,98 @@
+body{
+    margin-right: 0px;
+}
+
+header, .title, footer
+{
+    background-color:#FFC0CB;
+}
+h1,h2,h3,p, label
+{
+    font-family: 'Comic Neue', cursive;
+    
+}
+.first-section{
+    background-image: url(bg7.jpg);
+   
+    background-size: cover;
+    height: 500px;
+}  
+h3
+{
+    color:#353232;
+}
+footer p
+{
+    color:#353232;
+    font-family: 'Comic Neue', cursive;
+    font-size: 50px;
+}
+.prix
+{
+    color: #f71073;;
+}
+.btn a
+{
+    color:#6c757d;
+}
+.btn:hover a{
+    text-decoration: none;
+     color:white;
+   
+}
+.menu_head
+{
+    background-color: #6c757d;
+    height: 40px;
+    width: 300px;
+    color: white;
+    font-family: 'Comic Neue', cursive;
+    border-radius: 3px;
+}
+.menu_body
+{
+    background-color: white;
+    height: 100px;
+    width:300px;
+    border-radius: 3px;
+}
+header{
+    position: relative;
+}
+.menu_bubble
+{
+      position: absolute;
+      right: 60px;
+      top: 220px;
+      z-index: 1;
+     
+ } 
+
+.panier .menu_bubble
+{
+   opacity: 0;
+}
+
+.panier:hover .menu_bubble
+{
+   opacity: 1;
+}
+
+ .menu_body
+ {
+    font-family: 'Comic Neue', cursive;
+    font-size: 20px;
+ }
+
+ .card
+ {
+    animation: mymove 10s infinite;
+ }
+ @keyframes mymove {
+    50% {box-shadow: 10px 20px 30px black;}
+  }
+  .form-row
+  {
+      width: 400px;
+  }
+
